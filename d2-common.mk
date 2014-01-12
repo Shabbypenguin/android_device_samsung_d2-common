@@ -74,10 +74,6 @@ PRODUCT_PACKAGES += \
     init.target.rc \
     ueventd.qcom.rc
 
-#init.omni.rc replacement
-#PRODUCT_COPY_FILES += \
-#    device/samsung/d2-common/rootdir/etc/init.local.rc:root/init.omni.rc
-
 # GPS
 PRODUCT_PACKAGES += \
     gps.msm8960
@@ -87,11 +83,6 @@ PRODUCT_COPY_FILES += \
 
 # Torch
 PRODUCT_PACKAGES += OmniTorch
-
-# Compcache/Zram support
-#PRODUCT_COPY_FILES += \
-#device/samsung/d2-common/bin/compcache:system/bin/compcache \
-#device/samsung/d2-common/bin/handle_compcache:system/bin/handle_compcache
 
 # Wifi
 PRODUCT_PACKAGES += \
